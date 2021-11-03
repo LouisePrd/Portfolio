@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Contact</title>
+    <link rel="icon" href="images/icone.png">
+    <link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/Style.css">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <!--balise meta = balise orpheline-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Bootstrap-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="body text-light">
+
+    <!--MENU-->
+    <a href="Accueil.html"><img class="logo" src="images/logo.png" alt="Logo"></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse texte-menu navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav titre">
+                <li class="nav-item ">
+                    <a class="nav-link" href="Accueil.html">Accueil<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Compétences.html">Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Experiences.html">Expériences</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Loisirs
+                    </a>
+                    <div class="dropdown-menu sous-barre" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Loisirs.html#début">Centres d'interêt</a>
+                        <a class="dropdown-item" href="Loisirs.html#photo">Photographie</a>
+                        <a class="dropdown-item" href="Loisirs.html#urbex">Urbex</a>
+                        <a class="dropdown-item" href="Loisirs.html#jv">Jeux vidéos</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--FIN MENU-->
+
+
+    <!--FORMULAIRE-->
+    <form action="#/page de traitement" method="post">
+        <h1>Formulaire de contact</h1>
+        <p class="texte4">N'hésitez pas à remplir ce formulaire pour toute remarque, <br>suggestion ou demande de
+            renseignements supplémentaires !<br></p>
+        <section>
+            <fieldset>
+                <center>
+                    <div class="formatage">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                value="M" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                Monsieur
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                                value="F">
+                            <label class="form-check-label" for="exampleRadios2">
+                                Madame
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                                value="A">
+                            <label class="form-check-label" for="exampleRadios3">
+                                Autre
+                            </label>
+                        </div>
+                    </div>
+                </center>
+
+                <p>
+                    <label class="perso" for="name">Nom</label>
+                    <input class="perso_input" placeholder="Nom" type="text" id="name" name="username" />
+                </p>
+                <p>
+                    <label class="perso" for="name">Prénom</label>
+                    <input class="perso_input" placeholder="Prénom" type="text" id="name2" name="surname" />
+                </p>
+                <p>
+                    <label class="perso" for="date">Date</label>
+                    <input class="perso_input" type="date" id="date" name="date">
+                </p>
+                <p>
+                    <label class="perso" for="email">E-mail</label>
+                    <input class="perso_input" placeholder="Adresse-mail" type="email" id="email" name="usermail">
+                </p>
+                <p>
+                    <label class="perso message" for="text">Message</label>
+                    <input class="perso_input" placeholder="Laissez un commentaire" type="text" id="text"
+                        name="usertext">
+                </p>
+            </fieldset>
+        </section>
+        <!--FIN DES CHAMPS DU FORMULAIRE-->
+
+        <!--BOUTON-->
+        <div class="center"><br>
+            <button type="submit">Envoyer</button>
+        </div>
+    </form>
+
+
+    <!--PIED DE PAGE-->
+    <footer>
+        <div id="pied-de-page">
+            ©Copyright 2020 Portfolio de Louise. Tous droits réservés.</div>
+    </footer>
+
+</body>
+
+</html>

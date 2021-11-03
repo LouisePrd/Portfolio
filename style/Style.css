@@ -1,0 +1,296 @@
+.body {
+    background-color: rgb(111, 143, 170);
+}
+
+.logo {
+    height: 8rem !important;
+    width: auto;
+    padding-top: 16px;
+    padding-bottom: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-link {
+    font-size: 1.7rem;
+    font-family: Georgia, serif !important;
+}
+
+.texte-menu {
+    justify-content: center;
+}
+
+h1 {
+    font-size: 1.7rem !important;
+    text-align: center;
+    padding-top: 1%;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.card-body {
+    background-color: rgb(133, 157, 177);
+}
+
+/*---------VERSIONS DES DIFFERENTS TEXTES--------*/
+
+.texte1 {
+    font-size: 1.4rem;
+    text-align: justify;
+    margin-top: 30px;
+    font-family: Tahoma, Geneva, sans-serif;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+.texte2 {
+    font-size: 1.4rem;
+    text-align: justify;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.texte3 {
+    font-size: 1.4rem;
+    text-align: justify;
+    font-family: Tahoma, Geneva, sans-serif;
+    border: 1px solid white;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+
+.texte4 {
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    border-radius: 7px;
+    margin-top: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.photo, .video {
+    height: 14rem !important;
+    width: auto;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*---------------STYLE DU TABLEAU-------------*/
+
+td, th {
+    border: 1px solid black;
+}
+
+th {
+    background-color: lightgray;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/*----------------FIN TABLEAU------------------*/
+
+.col-presentation {
+    justify-content: center;
+}
+
+.son {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.photo2 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    max-width: 300px;
+}
+
+/*---------------CLASS QUI CENTRE-------------*/
+
+.center {
+    text-align: center;
+    justify-content: center;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/*-------------CLASS QUI JUSTIFIE-------------*/
+
+.justify {
+    text-align: justify;
+}
+
+.col-sous-presentation {
+    color: white;
+    justify-content: center;
+}
+
+.reseaux {
+    height: 2em !important;
+    width: auto;
+    margin-top: 3px;
+}
+
+.contact, .texte3 {
+    background-color: rgb(133, 157, 177);
+    color: white;
+    border: 1px solid white;
+}
+
+.card, .bot {
+    margin-bottom: 50px;
+}
+
+.top {
+    margin-top: 30px;
+}
+
+.loisirs {
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 15rem !important;
+    width: auto;
+    padding-bottom: 16px;
+}
+
+.competences {
+    height: 75px !important;
+    width: auto;
+    margin-bottom: 6px;
+}
+
+/*-------------TAILLE GIF DEUXIEME PAGE-----------*/
+
+.langues {
+    height: 10rem !important;
+    width: auto;
+    margin-top: 10px;
+}
+
+.qualites {
+    padding-bottom: 12px;
+}
+
+/*------------CONTACT AVEC FORMULAIRE-------------*/
+
+form {
+    width: 65%;
+    border: 1px solid rgb(39, 63, 107);
+    border-radius: 14px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgb(133, 157, 177);
+    margin: 0 auto;
+    margin-top: 30px!important;
+}
+
+.formatage {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.message {
+    padding-bottom: 10px;
+}
+
+fieldset {
+    background-color: rgb(238, 238, 238);
+    border-radius: 15px;
+    color: black;
+}
+
+ul {
+    text-align: center;
+}
+
+.perso_input {
+    width: 50%;
+}
+
+.perso {
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    background-color: rgb(68, 127, 238);
+    color: #eee;
+    height: 40px;
+    margin-bottom: 20px !important;
+}
+
+button:hover {
+    color: rgb(34, 61, 110);
+    background-color: rgb(201, 203, 219);
+}
+
+/*--------------PIED-DE-PAGE-----------------*/
+
+#pied-de-page {
+    background-color: white;
+    color: rgb(99, 95, 95);
+    width: 100%;
+    font-size: 0.9rem;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+}
+
+/*--------------MEDIAS QUERIES--------------*/
+
+@media screen and (max-width: 600px) {
+    .video {
+        max-height: 160px;
+    }
+    table {
+        font-size: 1rem;
+        text-align: center;
+        font-family: Tahoma, Geneva, sans-serif;
+    }
+    .btn-primary {
+        margin-left: 40px !important;
+        margin-right: 40px !important;
+    }
+}
+
+@media screen and (min-width: 901px)and (max-width: 991px) {
+    table {
+        font-size: 1.4rem;
+        text-align: center;
+        font-family: Tahoma, Geneva, sans-serif;
+    }
+    .btn-primary {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+    .formulaire {
+        margin-bottom: 30px;
+    }
+    fieldset {
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .btn-primary {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    fieldset {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
